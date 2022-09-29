@@ -18,7 +18,7 @@ Please test this firmware and let us know if it misbehaves in any way. Volunteer
 ## FlashForge Creator Pro
 I used the example config of the official repo and added some features
 
-++ use of the part cooler (which is missing in the official one for some reason)
+++ added the use of the part cooler (which is missing in the official one for some reason)
 
 ++ firmware retraction enabled
 
