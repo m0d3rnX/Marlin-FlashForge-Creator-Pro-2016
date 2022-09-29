@@ -152,7 +152,7 @@
 #define MOSFET_3_PIN                          11  // Plug EX2 1-2 -> PB5 #24 -> Logical 11
 #define MOSFET_4_PIN                          12  // Plug EX2 3-4 -> PB6 #25 -> Logical 12
 #define MOSFET_5_PIN                          45  // Plug HBD 1-2 -> PL4 #39 -> Logical 45
-#define MOSFET_6_PIN                          44  // Plug Extra 1-2 -> PL5 #40 -> Logical 44 (FET not soldered in all boards)
+#define MOSFET_6_PIN                          44  // Plug Extra 1-2 -> PL5 #40 -> Logical 44 (FET not soldered in all boards)  Extruder Fan
 
 //
 // Heaters / Fans (24V)
@@ -162,22 +162,28 @@
 #define HEATER_1_PIN                MOSFET_3_PIN // EX2
 #define HEATER_BED_PIN              MOSFET_5_PIN // HBP
 
-// EX1 FAN (Automatic Fans are disabled by default in Configuration_adv.h - comment that out for auto fans)
-#ifndef E0_AUTO_FAN_PIN
-  #define E0_AUTO_FAN_PIN           MOSFET_2_PIN
-#else
-  #ifndef FAN_PIN
-    #define FAN_PIN                 MOSFET_2_PIN
-  #endif
-#endif
-// EX2 FAN (Automatic Fans are disabled by default in Configuration_adv.h - comment that out for auto fans)
-#ifndef E1_AUTO_FAN_PIN
-  #define E1_AUTO_FAN_PIN           MOSFET_4_PIN
-#else
-  #ifndef FAN1_PIN
-    #define FAN1_PIN                MOSFET_4_PIN
-  #endif
-#endif
+
+
+//    // EX1 FAN (Automatic Fans are disabled by default in Configuration_adv.h - comment that out for auto fans)
+//    #ifndef E0_AUTO_FAN_PIN
+//      #define E0_AUTO_FAN_PIN           MOSFET_2_PIN
+//    #else
+//      #ifndef FAN_PIN
+//        #define FAN_PIN                 MOSFET_2_PIN
+//      #endif
+//    #endif
+//    // EX2 FAN (Automatic Fans are disabled by default in Configuration_adv.h - comment that out for auto fans)
+//    #ifndef E1_AUTO_FAN_PIN
+//      #define E1_AUTO_FAN_PIN           MOSFET_4_PIN
+//    #else
+//      #ifndef FAN1_PIN
+//        #define FAN1_PIN                MOSFET_4_PIN
+//      #endif
+//    #endif
+//    
+//    #define EXTRA_FET_PIN        MOSFET_6_PIN
+
+#define FAN_PIN   MOSFET_6_PIN
 
 //
 // Misc. Functions
