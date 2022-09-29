@@ -18,7 +18,7 @@ Please test this firmware and let us know if it misbehaves in any way. Volunteer
 ## FlashForge Creator Pro 2 (2016) Dual Extruder
 I used the example config of the official repo and added some features
 
-+ added the use of the part cooler (which is missing in the official one for some reason)
++ make use of the part cooler (which is missing in the official one for some reason)
 
 + firmware retraction enabled
 
