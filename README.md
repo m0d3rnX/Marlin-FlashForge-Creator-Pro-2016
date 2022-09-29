@@ -25,7 +25,12 @@ I used the example config of the official repo and added some features
 ++ firmware fan control for the extruders enabled instead of gcode-based
 
 
-Just load this code and compile it straight ahead after changing the environment to "MightyBoard2560"
+Just load this code and compile it straight ahead after changing the environment to "MightyBoard2560" and flash it.
+
+To-Do
++ Change the workspace offset X: -35
++ Try couple of features of Marlin
+
 
 
 
