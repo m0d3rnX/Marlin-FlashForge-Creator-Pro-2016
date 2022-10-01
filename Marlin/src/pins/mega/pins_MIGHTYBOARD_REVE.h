@@ -183,7 +183,7 @@
 //    
 //    #define EXTRA_FET_PIN        MOSFET_6_PIN
 
-#define FAN_PIN   MOSFET_6_PIN
+#define FAN_PIN   MOSFET_6_PIN    //  Partcooler
 
 //
 // Misc. Functions
