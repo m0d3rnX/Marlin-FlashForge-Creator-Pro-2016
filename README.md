@@ -27,7 +27,7 @@ I used the example config of the official repo and added some features
 
 # Please use the Branch with FlashForge Creator Pro in the name, as the upstream could miss some changes.
 
-Just load this code, change the environment to "MightyBoard2560", compile it and flash it.
+Just load this code, change the environment to "MightyBoard2560", compile "MightyBoard2560" and upload it.
 
 To-Do
 + Change the workspace offset X: -40
