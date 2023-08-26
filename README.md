@@ -16,7 +16,6 @@ Additional documentation can be found at the [Marlin Home Page](https://marlinfw
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
 ## FlashForge Creator Pro 2 (2016) Dual Extruder
-I used the example config of the official repo and added some features
 
 Get working part-fan:
 
