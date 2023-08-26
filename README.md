@@ -18,6 +18,19 @@ Please test this firmware and let us know if it misbehaves in any way. Volunteer
 ## FlashForge Creator Pro 2 (2016) Dual Extruder
 I used the example config of the official repo and added some features
 
+Get working part-fan:
+
+add #define COOLER_AUTO_FAN_PIN   MOSFET_F_PIN    //  Partcooler
+in Misc. Functions line ~180 (pins_MIGHTYBOARD_REVE.h
+
+Comment out line ~695 (Configuration_adv.h) 
+//#define COOLER_AUTO_FAN_PIN -1
+
+
+
+
+
+
 + make use of the part cooler (g-code based) (which is missing in the official one for some reason)
 
 + firmware retraction enabled
