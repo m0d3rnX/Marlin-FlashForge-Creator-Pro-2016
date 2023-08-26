@@ -19,7 +19,7 @@ Please test this firmware and let us know if it misbehaves in any way. Volunteer
 
 Get working part-fan:
 
-add #define COOLER_AUTO_FAN_PIN   MOSFET_F_PIN    //  Partcooler
+#define FAN0_PIN   MOSFET_F_PIN    //  Partcooler
 in Misc. Functions line ~180 (pins_MIGHTYBOARD_REVE.h
 
 Comment out line ~695 (Configuration_adv.h) 
